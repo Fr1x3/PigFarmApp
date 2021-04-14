@@ -5,21 +5,24 @@
     android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".ui.PhoneLoginFragment">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/country_code"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/phone"
+        android:hint="country_code"
         app:layout_constraintBottom_toBottomOf="@id/phone"
         app:layout_constraintEnd_toStartOf="@id/phone"
-        android:hint="country_code">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/phone">
+
         <AutoCompleteTextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/phone"
         android:layout_width="0dp"

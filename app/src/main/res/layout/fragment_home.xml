@@ -111,29 +111,33 @@
                 android:text="@string/home_meds"/>
         </androidx.appcompat.widget.LinearLayoutCompat>
     </com.google.android.material.card.MaterialCardView>
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/learn_card"
-        android:layout_width="100dp"
-        android:layout_height="130dp"
+        android:layout_width="14dp"
+        android:layout_height="7dp"
         android:clickable="true"
         android:focusable="true"
-        app:layout_constraintTop_toBottomOf="@id/weight_card"
-        app:layout_constraintStart_toStartOf="@id/weight_card"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/weight_card">
+        app:layout_constraintEnd_toEndOf="@id/weight_card"
+        app:layout_constraintStart_toStartOf="@id/weight_card"
+        app:layout_constraintTop_toBottomOf="@id/weight_card">
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"/>
+                android:layout_height="100dp" />
+
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="4dp"
-                android:textAlignment="center"
-                android:text="@string/home_learn"/>
+                android:text="@string/home_learn"
+                android:textAlignment="center" />
         </androidx.appcompat.widget.LinearLayoutCompat>
     </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

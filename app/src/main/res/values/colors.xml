@@ -7,4 +7,18 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--    custom colors-->
+<!--    <color name="petite_orchid"> 	#dba399</color>-->
+    <color name="water_leaf">#a8e6cf</color>
+    <color name="snowy_mint">#dcedc1</color>
+    <color name="peach_puff">#ffd3b6</color>
+    <color name="rose_bud">#dba399</color>
+    <color name="monalisa">#ff8b94</color>
+    
+    <color  name="hippie_green">#4b7f52</color>
+    <color  name="de_york">#7dd181</color>
+    <color name="algae_green">#96e8bc</color>
+    <color name="manhattan">#f3b391</color>
+    <color name="wheat">#f6d4b9</color>
 </resources>
