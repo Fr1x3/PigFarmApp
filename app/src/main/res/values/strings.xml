@@ -9,4 +9,12 @@
     <string name="home_learn">Learn</string>
     <string name="home_feeds">Feeds</string>
     <string name="home_meds">Doc</string>
+
+<!--    pig fragment labels-->
+    <string name="pig_breed">breed</string>
+    <string name="pig_age">age</string>
+    <string name="pig_number">number of Pigs</string>
+    <string name="per_pig_cost">cost per pig</string>
+    <string name="total" >total</string>
+    <string name="add_pigs">add pigs</string>
 </resources>

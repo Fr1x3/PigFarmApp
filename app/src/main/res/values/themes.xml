@@ -16,4 +16,12 @@
 
     </style>
 
+    <style name="ThemeRoundedButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+
+        <item name="cornerRadius">16dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="backgroundTint">@null</item>
+        <item name="background">@drawable/fifth_gradient</item>
+        <item name="rippleColor">@color/manhattan</item>
+    </style>
 </resources>
